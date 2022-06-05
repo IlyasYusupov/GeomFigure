@@ -104,7 +104,7 @@
             this.itemFile});
             this.msMenu.Location = new System.Drawing.Point(0, 0);
             this.msMenu.Name = "msMenu";
-            this.msMenu.Size = new System.Drawing.Size(1260, 28);
+            this.msMenu.Size = new System.Drawing.Size(1250, 28);
             this.msMenu.TabIndex = 4;
             this.msMenu.Text = "Menu";
             // 
@@ -120,14 +120,14 @@
             // itemSave
             // 
             this.itemSave.Name = "itemSave";
-            this.itemSave.Size = new System.Drawing.Size(224, 26);
+            this.itemSave.Size = new System.Drawing.Size(125, 26);
             this.itemSave.Text = "Save";
             this.itemSave.Click += new System.EventHandler(this.menuItemSave_Click);
             // 
             // itemLoad
             // 
             this.itemLoad.Name = "itemLoad";
-            this.itemLoad.Size = new System.Drawing.Size(224, 26);
+            this.itemLoad.Size = new System.Drawing.Size(125, 26);
             this.itemLoad.Text = "Load";
             this.itemLoad.Click += new System.EventHandler(this.menuItemLoad_Click);
             // 
@@ -150,7 +150,7 @@
             this.panelDataInput.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelDataInput.Location = new System.Drawing.Point(0, 28);
             this.panelDataInput.Name = "panelDataInput";
-            this.panelDataInput.Size = new System.Drawing.Size(332, 377);
+            this.panelDataInput.Size = new System.Drawing.Size(332, 474);
             this.panelDataInput.TabIndex = 5;
             // 
             // panelFilledFigure
@@ -626,7 +626,7 @@
             this.pbPicture.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbPicture.Location = new System.Drawing.Point(332, 28);
             this.pbPicture.Name = "pbPicture";
-            this.pbPicture.Size = new System.Drawing.Size(928, 377);
+            this.pbPicture.Size = new System.Drawing.Size(918, 474);
             this.pbPicture.TabIndex = 6;
             this.pbPicture.TabStop = false;
             // 
@@ -634,7 +634,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1260, 405);
+            this.ClientSize = new System.Drawing.Size(1250, 502);
             this.Controls.Add(this.pbPicture);
             this.Controls.Add(this.panelDataInput);
             this.Controls.Add(this.msMenu);

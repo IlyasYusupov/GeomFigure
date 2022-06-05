@@ -1,4 +1,4 @@
-//Юсупов Ильяс 221 группа "Геометрические фигуры - 3"
+//Юсупов Ильяс 221 группа "Геометрические фигуры - 4"
 using System;
 using System.Collections.Generic;
 using System.IO;
