@@ -82,7 +82,7 @@ namespace GeomFigure3
                     case "Rectangle":
                         GetNum(ss, ref num);
                         fig = new Rectangle(new BasePoint(num[0], num[1]), num[2], num[3], new SolidBrush(Color.FromArgb(num[4])), 
-                                            new Pen(Color.FromArgb(num[6]), num[7]),num[7]);
+                                            new Pen(Color.FromArgb(num[5]), num[6]),num[6]);
                         page.Add(fig);
                         break;
 
